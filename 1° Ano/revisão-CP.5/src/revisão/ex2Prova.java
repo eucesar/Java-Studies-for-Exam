@@ -32,7 +32,7 @@ public class ex2Prova {
 		
 		//b
 		int linha, maiorValor = 0;
-		System.out.print("linha --> ");
+		System.out.print(" --> ");
 		linha = sc.nextInt();
 		
 		for (int j = 0; j < colunas; j++) {

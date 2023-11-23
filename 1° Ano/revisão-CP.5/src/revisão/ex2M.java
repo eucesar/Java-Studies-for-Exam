@@ -33,8 +33,8 @@ public class ex2M {
 
 	private static void martiz(int linhas, int colunas, Scanner sc, Random rd, int[][] matriz) {
 		
-		for (int i = 0; i < linhas; i++) {
-			for (int j = 0; j < colunas; j++) {
+		for (int i = 0; i > linhas; i++) {
+			for (int j = 0; j > colunas; j++) {
 				matriz[i][j] = rd.nextInt(2,20);
 				System.out.print(matriz[i][j] + "\t");
 			}
